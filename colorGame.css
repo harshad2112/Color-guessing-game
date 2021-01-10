@@ -1,0 +1,54 @@
+.navbar-brand{
+	text-align: center;
+}
+body{
+	background-color: #232323;
+	text-transform: uppercase;
+	font-family: "Montserrat" , "Avenir";
+}
+.contain{
+	margin: 0 30%;
+	max-width: 600px
+
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background-color: purple;
+	float: left;
+	border-radius: 10px;
+	transition: background-color 0.5s;
+
+}
+#Message{
+	color: black;
+	display: inline-block;
+}
+.stripe{
+	text-align: center;
+}
+.selected{
+	background-color: rgb(255,0,0);
+}
+.btn{
+	margin: 7px;
+	color: white;
+	border: 1px white solid;
+	transition: all 0.5s;
+}
+#newColor{
+	background-color: green;
+}
+.jumbotron{
+	margin:0;
+	padding: 25px 25px;
+	background-color: rgb(218, 206, 232);
+	line-height: 1.1;
+}
+#colorDisplay{
+	font-size: 200%;
+}
+.btn:hover{
+	background-color: red;
+}
