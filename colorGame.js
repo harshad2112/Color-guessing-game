@@ -19,7 +19,7 @@ easy.addEventListener("click", function() {
 		colors=randColor(hardness);
 	for(var i=0;i<3;i++)
 		squares[i].style.backgroundColor=colors[i];
-	for(var i=3;i<6;i++)
+	for(var i=3;i<6;i++) //changes required
 		squares[i].style.backgroundColor="#232323";
 	easy.classList.add("selected");
 	hard.classList.remove("selected");
