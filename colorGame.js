@@ -3,6 +3,7 @@ var hardness=6;
 var hard=document.querySelector("#Hard");
 hard.addEventListener("click", function() {
 	hardness=6;
+	
 		colors=randColor(hardness);
 	for(var i=0;i<squares.length;i++)
 		squares[i].style.backgroundColor=colors[i];
